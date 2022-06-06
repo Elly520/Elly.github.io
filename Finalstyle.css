@@ -1,0 +1,27 @@
+
+body{
+    background: -webkit-linear-gradient(-8deg,orange,yellow);
+}/*背景變黃橘色漸層*/
+.line1{
+    background: darkgoldenrod;
+    color:white;
+}
+div{
+    width:10px;
+    height:40px;
+    background:tomato;
+    transition:width 2s;
+}/*長條圖*/
+.power:hover{
+    width:150px;
+}/*觸碰長條圖會變長*/
+::selection{
+    color:white;
+    background:forestgreen;
+}/*碰到指定圖片會有綠色框框*/
+th.picture:hover{
+    border:3px solid forestgreen;
+    width:3000px;
+    height:200px;
+    opacity 1.0;
+}/*碰到指定圖片會放大*/
